@@ -9,6 +9,7 @@
   "author": "Sam Stonehouse",
   "license": "MIT",
   "dependencies": {
-    "mongoose": "^4.4.4"
+    "mongoose": "^4.4.4",
+    "restify": "^4.0.4"
   }
 }
