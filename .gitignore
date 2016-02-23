@@ -1,0 +1,5 @@
+# Ignore our actual config file
+*config.json
+
+# Ignore our modules folder
+node_modules
