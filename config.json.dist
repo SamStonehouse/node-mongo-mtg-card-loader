@@ -1,7 +1,7 @@
 {
-	"host": "",
-	"port": "",
-	"username": "",
-	"password": "",
-	"database": ""
+	"database-host": "",
+	"database-port": "",
+	"database-username": "",
+	"database-password": "",
+	"database-name": ""
 }

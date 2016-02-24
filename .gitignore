@@ -3,3 +3,10 @@
 
 # Ignore our modules folder
 node_modules
+
+# Optional npm cache directory
+.npm
+
+logs
+*.log
+npm-debug.log*
