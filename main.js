@@ -25,6 +25,8 @@ function importDatabase(jsonData, Set, Card) {
 					console.log('Saved set: ' + set.name + ', saving cards...');
 
 					async.each(cards, function(card, cardCallback) {
+						card.setName = set.name;
+						card.setCode = set.code;
 						// Create and save each individual card
 						var newCard = new Card(card);
 						newCard.save(function(err) {
