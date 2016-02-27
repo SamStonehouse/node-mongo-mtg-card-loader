@@ -7,7 +7,7 @@ function importDatabase(jsonData) {
 	return new Promise(function(resolve, reject) {
 		var setList = [];
 
-		for (var setKey in jsonDatabase) {
+		for (var setKey in jsonData) {
 			setList.push(jsonData[setKey]);
 		}
 
