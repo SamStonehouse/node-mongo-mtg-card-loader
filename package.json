@@ -9,7 +9,6 @@
   "author": "Sam Stonehouse",
   "license": "MIT",
   "dependencies": {
-    "async": "^1.5.2",
-    "node-mongo-mtg-card-models": "0.1.0"
+    "async": "^1.5.2"
   }
 }
