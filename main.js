@@ -13,7 +13,7 @@ function importDatabase(jsonData, Set, Card) {
 		Set.remove({}, function(err) {
 			if (err) { throw err; }
 			console.log('Sucessfully removed old sets, re-adding');
-			async.each(setList, function(set, setCallback) {
+			async.eachSeries(setList, function(set, setCallback) {
 				// Remove cards from the set
 				var cards = set.cards;
 				delete set.cards;
